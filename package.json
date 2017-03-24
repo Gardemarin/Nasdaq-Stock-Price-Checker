@@ -1,0 +1,38 @@
+{
+	"name": "my-hyperdev-app",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.14.1",
+		"cors": "^2.8.1",
+		"body-parser": "^1.16.1",
+		"chai": "^3.5.0",
+		"mongodb": "^2.2.24",
+		"chai-http": "^3.0.0",
+		"mocha": "^3.2.0",
+		"zombie": "^5.0.5",
+		"helmet": "^3.4.0",
+		"mongoose": "^4.8.4",
+		"bluebird": "^3.4.7",
+    "google-stocks": "^1.0.1",
+    "lodash": "^4.17.4",
+    "request-ip": "^2.0.1"
+  },
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
